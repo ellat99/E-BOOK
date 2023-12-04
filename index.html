@@ -35,7 +35,7 @@
         <div class="nav__menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="ri-home-line"></i>
                 <span>Home</span>
               </a>
@@ -221,11 +221,11 @@
         <div class="featured__container container">
           <div class="featured__swiper swiper">
             <div class="swiper-wrapper">
-              <article class="featured__card">
+              <article class="featured__card swiper-slide">
                 <img
                   src="assets/img/home-book-1.png"
                   alt="image"
-                  class="featured_-img"
+                  class="featured__img"
                 />
                 <h2 class="featured__title">Featured Book</h2>
                 <div class="featured__prices">
@@ -247,7 +247,7 @@
                 <img
                   src="assets/img/home-book-2.png"
                   alt="image"
-                  class="featured_-img"
+                  class="featured__img"
                 />
                 <h2 class="featured__title">Featured Book</h2>
                 <div class="featured__prices">
@@ -269,7 +269,7 @@
                 <img
                   src="assets/img/home-book-3.png"
                   alt="image"
-                  class="featured_-img"
+                  class="featured__img"
                 />
                 <h2 class="featured__title">Featured Book</h2>
                 <div class="featured__prices">
@@ -291,7 +291,7 @@
                 <img
                   src="assets/img/book-4.png"
                   alt="image"
-                  class="featured_-img"
+                  class="featured__img"
                 />
                 <h2 class="featured__title">Featured Book</h2>
                 <div class="featured__prices">
@@ -313,7 +313,7 @@
                 <img
                   src="assets/img/book-5.png"
                   alt="image"
-                  class="featured_-img"
+                  class="featured__img"
                 />
                 <h2 class="featured__title">Featured Book</h2>
                 <div class="featured__prices">
@@ -335,7 +335,7 @@
                 <img
                   src="assets/img/book-6.png"
                   alt="image"
-                  class="featured_-img"
+                  class="featured__img"
                 />
                 <h2 class="featured__title">Featured Book</h2>
                 <div class="featured__prices">
@@ -357,7 +357,7 @@
                 <img
                   src="assets/img/book-7.png"
                   alt="image"
-                  class="featured_-img"
+                  class="featured__img"
                 />
                 <h2 class="featured__title">Featured Book</h2>
                 <div class="featured__prices">
@@ -379,7 +379,7 @@
                 <img
                   src="assets/img/book-8.png"
                   alt="image"
-                  class="featured_-img"
+                  class="featured__img"
                 />
                 <h2 class="featured__title">Featured Book</h2>
                 <div class="featured__prices">
@@ -401,7 +401,7 @@
                 <img
                   src="assets/img/book-9.png"
                   alt="image"
-                  class="featured_-img"
+                  class="featured__img"
                 />
                 <h2 class="featured__title">Featured Book</h2>
                 <div class="featured__prices">
@@ -984,19 +984,124 @@
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            <i class="ri-book-3-line"></i>E-Book
+          </a>
+          <p class="footer__description">
+            Find and explore the best <br />
+            eBooks from all your <br />
+            favorite writers.
+          </p>
+        </div>
+        <div class="footer__data grid">
+          <div>
+            <h3 class="footer__title">About</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Awards</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">FAQs</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Privacy policy</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Terms of services</a>
+              </li>
+            </ul>
+          </div>
+
+          <!---->
+          <div>
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link"> Blogs</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link"> Community</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link"> Our team</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link"> Help center</a>
+              </li>
+            </ul>
+          </div>
+
+          <!---->
+          <div>
+            <h3 class="footer__title">Contact</h3>
+            <ul class="footer__links">
+              <li>
+                <adress class="footer__info">
+                  Av. Hacienda <br />
+                  Lima 4321, Perú
+                </adress>
+              </li>
+
+              <li>
+                <adress class="footer__info">
+                  e.book@email.com <br />
+                  0987-654-321
+                </adress>
+              </li>
+            </ul>
+          </div>
+          <!---->
+          <div>
+            <h3 class="footer__title">Social</h3>
+            <div class="footer__social">
+              <a
+                href=" https://www.facebook.com/"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="ri-facebook-circle-line"></i>
+              </a>
+              <a
+                href=" https://www.instagram.com/"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href=" https://twitter.com/"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="ri-twitter-line"></i>
+              </a>
+            </div>
+          </div>
+          <!---->
+        </div>
+      </div>
+
+      <span class="footer__copy">&#169; All Rights Reserved By Bedimcode </span>
+    </footer>
 
     <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
 
     <!--=============== SCROLLREVEAL ===============-->
-    <script src=""></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
 
     <!--=============== SWIPER JS ===============-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
-    <script src="assets/js/scrollreveal.min.js"></script>
-
     <script src="assets/js/main.js"></script>
   </body>
 </html>
